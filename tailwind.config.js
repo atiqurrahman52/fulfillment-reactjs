@@ -3,7 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      sm: "640px",
+      xs: '320px',
+      sm: '375px',
+      lsm: '425px',
       md: "768px",
       lg: "1024px",
       xl: "1280px",
@@ -38,7 +40,8 @@ module.exports = {
       },
       backgroundImage: {
         "contact-bg": "url('/assets/images/contact/contact.png')",
-        "about-bg": "url('/assets/images/about/about-bg.png')",
+        // "about-bg": "url('/assets/images/about/about-bg.png')",
+        "about-bg": "url('./src/assets/images/about/about-bg.png')",
       },
     },
   },

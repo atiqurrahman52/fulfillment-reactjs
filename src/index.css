@@ -27,3 +27,19 @@
   background-image: url("./assets/images/contact/contact.png");
 }
 /* Contact page ended  */
+
+/* .accordion career started */
+.accor-content{
+  animation: animate 0.2s linear backwards;
+  transform-origin: top;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #808c9d;
+  font-weight: 400;
+  line-height: 140%;
+}
+@keyframes animate {
+  0% {
+    transform: scaleY(0);
+  }
+}

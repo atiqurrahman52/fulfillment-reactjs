@@ -330,7 +330,7 @@ const Contact = () => {
                 </div>
                 <div class="flex justify-center w-full px-3">
                   <button
-                    class="contact-btn focus:shadow-outline rounded-lg bg-[#3B2D60] focus:outline-none shadow-[0px_4px_7px_-1px_rgba(0,0,0,0.11),0px_2px_4px_-1px_rgba(0,0,0,0.07)] text-white font-bold text-xs leading-[12px] uppercase py-3 px-6"
+                    class="focus:shadow-outline rounded-lg bg-[#3B2D60] focus:outline-none shadow-[0px_4px_7px_-1px_rgba(0,0,0,0.11),0px_2px_4px_-1px_rgba(0,0,0,0.07)] text-white font-bold text-xs leading-[12px] uppercase py-3 px-6"
                     type="submit"
                   >
                     Send Message

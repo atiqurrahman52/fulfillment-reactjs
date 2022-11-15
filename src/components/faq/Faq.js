@@ -4,7 +4,7 @@ import FaqDetails from "./FaqDetails";
 
 const Faq = () => {
   return (
-   <div className="pt-24">
+   <div className="pt-2">
        <FaqBanner />
        <FaqDetails />
    </div>

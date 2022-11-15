@@ -10,14 +10,7 @@ import Legal from "./components/legal/Legal";
 
 function App() {
   return (
-    // <>
-    //   <Routes>
-    //     <Route path="/" element={<Layout />} />
-    //     {/* <Route exact index element={<Home />} /> */}
-    //     <Route path="/" element={<Home />} />
-    //   </Routes>
-    // </>
-
+    
     <>
       <Routes>
         <Route exact path="/" element={<Layout />}>

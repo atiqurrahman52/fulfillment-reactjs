@@ -150,19 +150,19 @@ const Footer = () => {
         </div>
         <div className="flex flex-wrap divide-x- font-mulish font-normal text-sm md:text-lg text-center  gap- mt-2 md:mt-0">
           <div className="px-1 text-gray">
-            <Link to="#" className="rightBord">
+            <Link to="/legal" className="rightBord">
               All Rights Reserved
             </Link>{" "}
             |
           </div>
           <div className="px-1 text-gray">
-            <Link to="#" className="border-b">
+            <Link to="/legal" className="border-b">
               Terms and Conditions
             </Link>{" "}
             |
           </div>
           <div className="px-1 text-gray">
-            <Link to="#" className="border-b">
+            <Link to="/legal" className="border-b">
               Privacy Policy
             </Link>
           </div>

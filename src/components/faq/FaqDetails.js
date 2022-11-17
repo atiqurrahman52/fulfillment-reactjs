@@ -5,13 +5,6 @@ import { faqData } from "../../data/faqData";
 const FaqDetails = () => {
   const [data, setData] = useState(faqData);
 
-  // useEffect(() => {
-  //   setData(faqData);
-  // }, [data]);
-  // console.log(data);
-
-  // const { header, items } = data;
-
   return (
     <div className="container">
       <div className="grid grid-cols-12 gap-4 md:gap-6 pt-10">

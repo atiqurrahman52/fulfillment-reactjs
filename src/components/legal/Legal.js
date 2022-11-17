@@ -81,15 +81,15 @@ const Legal = () => {
                 Was this article helpful?
               </p>
               <div class="flex items-center justify-center gap-5">
-                <p class="hover:cursor-pointer hover:text-green-700 hover:shadow-[0px_0px_5px_0px_#D0E2F4] transition-all duration-300 py-[10px] px-[15px] bg-[#F9FAFD] rounded-[10px] text-[#808D9E] md:text-primary">
+                <p class="hover:cursor-pointer hover:text-green-700 hover:shadow-[0px_0px_5px_0px_#D0E2F4] transition-all duration-300 py-2.5 px-[15px] bg-[#F9FAFD] rounded-[10px] text-[#808D9E] md:text-primary">
                   Yes
                 </p>
-                <p class="hover:cursor-pointer hover:text-red-700 hover:shadow-[0px_0px_5px_0px_#D0E2F4] transition-all duration-300 py-[10px] px-[15px] bg-[#F9FAFD] rounded-[10px] text-[#808D9E] md:text-primary">
+                <p class="hover:cursor-pointer hover:text-red-700 hover:shadow-[0px_0px_5px_0px_#D0E2F4] transition-all duration-300 py-2.5 px-[15px] bg-[#F9FAFD] rounded-[10px] text-[#808D9E] md:text-primary">
                   No
                 </p>
               </div>
             </div>
-            {/* </div> */}
+           
           </div>
         </div>
       </div>

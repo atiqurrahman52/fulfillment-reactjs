@@ -7,7 +7,7 @@ import { socialIconsSvg } from "../../data/svgData";
 const Footer = () => {
   return (
     <div className="container">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 py-5 md:py-10 gap-6 border-b-[1px] border-gray">
+      <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 py-5 md:py-10 gap-6 border-b-[1px] border-gray">
         <div className="space-y-6">
           <img className="w-max mx-auto lg:mx-0" src={logo} alt="" />
           <p className="font-mulish font-normal text-gray text-center md:text-left text-sm md:text-base leading-5">
@@ -74,26 +74,26 @@ const Footer = () => {
             Company
           </h3>
           <Link
-            to="#"
+            to="/about"
             className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
           >
             About
           </Link>
           <Link
-            to="#"
+            to="/contact"
             className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
           >
             Contact us
           </Link>
           <Link
-            to="career"
+            to="/career"
             className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
           >
             Careers
           </Link>
 
           <Link
-            to="#"
+            to="/faq"
             className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
           >
             F&Q

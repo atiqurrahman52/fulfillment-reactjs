@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProcessForm = () => {
   return (
     <div className="grid xl:grid-cols-12 gap-5 container">
@@ -189,8 +187,8 @@ const ProcessForm = () => {
           </div>
 
           <div class="flex items-center">
-            <button class="text-white font-poppins font-semibold text-base leading-6 tracking-[0.04em] bg-primary px-[30px] py-2.5 rounded w-full h-full">
-              See open positions
+            <button class="text-white font-poppins font-semibold text-base leading-6 tracking-[0.04em] bg-[#3B2D60] px-[30px] py-2.5 rounded w-full h-full">
+              Get A QUery
             </button>
           </div>
         </form>

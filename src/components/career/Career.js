@@ -8,14 +8,14 @@ import ProcessForm from './ProcessForm';
 
 const Career = () => {
     return (
-        <div className='pt-28'>
-            <CareerHeader />
+        <div className=''>
+            {/* <CareerHeader />
             <Culture />
             <Position />
-            <Job />
+            <Job /> */}
             <div className=''>
-            <ProcessFaq />
-            <ProcessForm />
+            {/* <ProcessFaq /> */}
+            {/* <ProcessForm /> */}
             </div>
            
         </div>

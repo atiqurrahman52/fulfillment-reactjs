@@ -1,12 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-
 import BasicLayout from "./layouts/BasicLayout";
-import Home from "./components/home/Home";
-import Faq from "./components/faq/Faq";
-import Career from "./components/career/Career";
+import Faq from "./pages/Faq";
 import Contact from "./components/contact/Contact";
 import Legal from "./components/legal/Legal";
 import About from "./pages/About";
+import Home from "./pages/Home";
+import Career from "./pages/Career";
 
 function App() {
   return (

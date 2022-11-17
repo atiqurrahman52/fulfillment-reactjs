@@ -1,9 +1,7 @@
-import React from "react";
-import { Check, check } from "phosphor-react";
 import checkbox from "../../assets/images/common/check-box.svg";
 import about from "../../assets/images/about/about.png";
 
-const Aboutus = () => {
+const AboutUs = () => {
   return (
     <div className="container">
       <div className="grid grid-cols-1 md:grid-cols-2 py-10 md:py-16 gap-10 xl:gap-28">
@@ -46,4 +44,4 @@ const Aboutus = () => {
   );
 };
 
-export default Aboutus;
+export default AboutUs;

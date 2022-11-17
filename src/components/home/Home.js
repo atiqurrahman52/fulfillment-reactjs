@@ -1,17 +1,19 @@
 import React from "react";
-import Aboutus from "./Aboutus";
+import Aboutus from "./AboutUs";
 import Brand from "./Brand";
 import HandleOrder from "./HandleOrder";
 import HeroSection from "./HeroSection";
 import Location from "./Location";
 import WarehouseManage from "./WarehouseManage";
-import SummeryOne from "./SummeryOne";
+import SummaryOne from "./SummaryOne";
+import Services from "./Services";
 
 const Home = () => {
   return (
     <div>
       <HeroSection />
-      <SummeryOne />
+      <SummaryOne />
+      <Services />
       <HandleOrder />
       <WarehouseManage />
       <Aboutus />

@@ -1,19 +1,17 @@
-import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Layout from "./components/common/Layout";
+
+import BasicLayout from "./layouts/BasicLayout";
 import Home from "./components/home/Home";
-import About from "./components/about/About";
 import Faq from "./components/faq/Faq";
 import Career from "./components/career/Career";
 import Contact from "./components/contact/Contact";
 import Legal from "./components/legal/Legal";
+import About from "./pages/About";
 
 function App() {
   return (
-    
-    <>
-      <Routes>
-        <Route exact path="/" element={<Layout />}>
+     <Routes>
+        <Route exact path="/" element={<BasicLayout />}>
           <Route exact index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/faq" element={<Faq />} />
@@ -22,7 +20,6 @@ function App() {
           <Route path="/legal" element={<Legal />} />
         </Route>
       </Routes>
-    </>
   );
 }
 

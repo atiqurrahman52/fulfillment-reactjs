@@ -46,26 +46,12 @@ const Brand = () => {
   return (
     <div className="container">
       <div className="brand-logos py-10 md:py-16">
-        {/* <Slider {...settings}>
-            {
-                brands.map((brand)) =>(
-                    <div key={brand.id}>
-              <img
-                className="grayscale-[100%] hover:grayscale-0 w-[70px] md:w-[150px] h-6 md:h-[50px] object-contain mx-auto"
-                src={brand.img}
-                alt=""
-              />
-            </div>
-                )
-            }
-            </Slider> */}
-
         <Slider {...settings}>
           {brands.map((partner) => (
             <div key={partner.id}>
               <div>
                 <img
-                  className="grayscale-[100%] hover:grayscale-[0%] w-[70px] lg:w-[100px]  h-[20px] lg:h-[56px]  object-contain mx-auto my-2"
+                  className="grayscale hover:grayscale-0 w-[70px] lg:w-[100px] h-5 lg:h-14 object-contain mx-auto my-2"
                   src={partner.img}
                   alt=""
                 />

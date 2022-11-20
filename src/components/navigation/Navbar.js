@@ -47,7 +47,8 @@ export default function NavBar() {
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6 text-[#D00338E5]/90"
+                    // className="w-6 h-6 text-[#D00338E5]/90"
+                    className="w-6 h-6 text-[#1F425D]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -59,7 +60,8 @@ export default function NavBar() {
                   </svg>
                 ) : (
                   <svg
-                    className="text-[#D00338E5]/90"
+                    // className="text-[#D00338E5]/90"
+                    className="text-[#1F425D]"
                     width="25"
                     height="26"
                     viewBox="0 0 25 26"
@@ -72,7 +74,8 @@ export default function NavBar() {
                       width="10.0859"
                       height="2.8817"
                       rx="1.44085"
-                      fill="#D00338"
+                      // fill="#D00338"
+                      fill="#1F425D"
                       fillOpacity="0.9"
                     />
                     <rect
@@ -81,7 +84,7 @@ export default function NavBar() {
                       width="20.1719"
                       height="2.8817"
                       rx="1.44085"
-                      fill="#D00338"
+                      fill="#1F425D"
                       fillOpacity="0.9"
                     />
                     <rect
@@ -90,7 +93,7 @@ export default function NavBar() {
                       width="12.9676"
                       height="2.8817"
                       rx="1.44085"
-                      fill="#D00338"
+                      fill="#1F425D"
                       fillOpacity="0.9"
                     />
                   </svg>

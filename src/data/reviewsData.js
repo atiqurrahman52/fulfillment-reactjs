@@ -2,32 +2,6 @@ import nobu from "../assets/images/about/nobu.png";
 import dodgers from "../assets/images/about/dodgers.png";
 import richard from "../assets/images/about/richard.png";
 
-// const reviewsData = {
-//   title: "What Our Clients Say",
-//   description:
-//     "From first-time entrepreneurs to established eCommerce brands, see what our clients have to say about our fulfillment center network and team of dedicated fulfillment professionals",
-//   items: [
-//     {
-//       id: 0,
-//       img: nobu,
-//       details:
-//         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
-//     },
-//     {
-//       id: 1,
-//       img: dodgers,
-//       details:
-//         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
-//     },
-//     {
-//       id: 2,
-//       img: richard,
-//       details:
-//         "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
-//     },
-//   ],
-// };
-
 const reviewsData = [
   {
     id: 0,

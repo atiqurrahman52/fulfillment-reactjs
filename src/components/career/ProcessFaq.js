@@ -9,6 +9,7 @@ const ProcessFaq = () => {
   return (
     <div class="container">
       <div class="py-1 md:py-1">
+
         <div class="flex flex-col justify-center items-center mb-10">
           <h3 class="text-primary font-poppins font-bold text-2xl md:text-[40px] text-center md:leading-[60px] mb-[15px] md:mb-2.5">
             Application Process FAQ
@@ -21,7 +22,8 @@ const ProcessFaq = () => {
         </div>
 
         <div class="grid grid-cols-12 gap-6">
-          <div class="md:col-span-8 w-full h-full">
+
+          <div class="col-span-12 xl:col-span-8 w-full h-full">
             {applicationFaqData.map(({ id, title, description }) => (
               <div
                 key={id}
@@ -54,7 +56,8 @@ const ProcessFaq = () => {
               </div>
             ))}
           </div>
-          <div class="md:col-span-4 bg-[#D8D5DF] p-5 md:p-10 rounded-[16px] w-full h-full">
+
+          <div class="col-span-12 xl:col-span-4 bg-[#D8D5DF] p-5 md:p-10 rounded-[16px] w-full h-full">
             <form action="">
               <div class="text-center md:text-left">
                 <h3 class="text-[#828B9F] font-poppins font-bold text-base tracking-[0.04em] uppercase mb-2.5">
@@ -248,6 +251,7 @@ const ProcessFaq = () => {
               </div>
             </form>
           </div>
+
         </div>
       </div>
     </div>

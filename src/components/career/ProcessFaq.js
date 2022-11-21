@@ -188,7 +188,7 @@ const ProcessFaq = () => {
                     class="font-medium outline-none"
                   />
 
-                  <div class="">
+                  {/* <div class="">
                     <svg
                       width="20"
                       height="20"
@@ -240,7 +240,8 @@ const ProcessFaq = () => {
                         </clipPath>
                       </defs>
                     </svg>
-                  </div>
+                  </div> */}
+
                 </div>
               </div>
 

@@ -74,7 +74,6 @@ export default function NavBar() {
                       width="10.0859"
                       height="2.8817"
                       rx="1.44085"
-                      // fill="#D00338"
                       fill="#1F425D"
                       fillOpacity="0.9"
                     />
@@ -113,7 +112,7 @@ export default function NavBar() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <NavLink to="service">Services</NavLink>
+                <NavLink to="#">Services</NavLink>
               </li>
               {/* <li className="hidden lg:block"> */}
 

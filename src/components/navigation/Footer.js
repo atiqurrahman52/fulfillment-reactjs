@@ -33,37 +33,37 @@ const Footer = () => {
           </h3>
           <Link
             to="#"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Order Processing
           </Link>
           <Link
             to="#"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Inventory Quality Control (QC)
           </Link>
           <Link
             to="#"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Inventory Audit
           </Link>
           <Link
             to="#"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Marketing & Promotion
           </Link>
           <Link
             to="#"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Return Inventory Management
           </Link>
           <Link
             to="#"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Marketplace Solutions
           </Link>
@@ -75,26 +75,26 @@ const Footer = () => {
           </h3>
           <Link
             to="/about"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             About
           </Link>
           <Link
             to="/contact"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Contact us
           </Link>
           <Link
             to="/career"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Careers
           </Link>
 
           <Link
             to="/faq"
-            className="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]"
+            className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             F&Q
           </Link>
@@ -113,7 +113,7 @@ const Footer = () => {
             />
             <a
               href="mailto:contact@company.com"
-              className="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center text-[#888B96]"
+              className="font-mulish font-normal text-sm md:text-base leading-5  flex justify-center items-center text-[#888B96]"
             >
               contact@company.com
             </a>
@@ -126,7 +126,7 @@ const Footer = () => {
             />
             <Link
               href="tel:(414) 687 - 5892"
-              className="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center text-[#888B96]"
+              className="font-mulish font-normal text-sm md:text-base leading-5 flex justify-center items-center text-[#888B96]"
             >
               (414) 687 - 5892
             </Link>
@@ -137,7 +137,7 @@ const Footer = () => {
               className="text-xl w-max mx-auto lg:mx-0 text-primary"
               size={20}
             />
-            <p className="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center text-[#888B96]">
+            <p className="font-mulish font-normal text-sm md:text-base leading-5  flex justify-center items-center text-[#888B96]">
               794 Mcallister St <br />
               Knoxville, TN
             </p>
@@ -153,13 +153,13 @@ const Footer = () => {
             <Link to="/legal" className="rightBord">
               All Rights Reserved
             </Link>{" "}
-            |
+            <span>|</span>
           </div>
           <div className="px-1 text-gray">
             <Link to="/legal" className="border-b">
               Terms and Conditions
             </Link>{" "}
-            |
+            <span>|</span>
           </div>
           <div className="px-1 text-gray">
             <Link to="/legal" className="border-b">
@@ -168,6 +168,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

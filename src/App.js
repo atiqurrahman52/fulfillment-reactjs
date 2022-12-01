@@ -6,6 +6,7 @@ import Legal from "./components/legal/Legal";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Career from "./pages/Career";
+import NotFound from "./components/notFound/NotFound";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/career" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/legal" element={<Legal />} />
+        <Route path="*"  element={<NotFound/>} />
+           
         </Route>
       </Routes>
   );

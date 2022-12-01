@@ -9,7 +9,7 @@ const Career = () => {
     <div className="">
       <CareerHeader />
       <Culture />
-      <Position />
+      {/* <Position /> */}
       <Job />
       <ProcessFaq />
     </div>

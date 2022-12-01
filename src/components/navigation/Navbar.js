@@ -3,35 +3,11 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import logo from "../../assets/images/logo/logo.png";
 
 export default function NavBar() {
-  const location = useLocation();
+  // const location = useLocation();
 
   const [navbar, setNavbar] = useState(false);
-  // const [colorChange, setColorChange] = useState(false);
-
-  // const destinationPath = location.pathname === "/destination";
-
-  // const changeNavbarColor = () => {
-  //   if (window.scrollY >= 80) {
-  //     setColorChange(true);
-  //   } else {
-  //     setColorChange(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   setColorChange(
-  //     typeof window !== "undefined" && window.scrollY >= 80 ? true : false
-  //   );
-  //   window.addEventListener("scroll", changeNavbarColor);
-  // }, [colorChange, destinationPath]);
 
   return (
-    // <nav
-    //   className={`w-full shadow-lg md:shadow-none
-    //   ${colorChange ? "bg-white !shadow-lg" : "bg-white md:bg-transparent"}
-    //   ${!colorChange && destinationPath ? "md:text-white" : "text-secondary "}
-    //   md:pb-5 md:pt-6 fixed top-0 z-50 transition-all duration-500 `}
-    // >
     <nav
       className="w-full shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] bg-white
       md:pb-5 md:pt-6 sticky top-0 left-0 z-50 transition-all duration-500 "
@@ -47,7 +23,6 @@ export default function NavBar() {
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    // className="w-6 h-6 text-[#D00338E5]/90"
                     className="w-6 h-6 text-[#1F425D]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -60,7 +35,6 @@ export default function NavBar() {
                   </svg>
                 ) : (
                   <svg
-                    // className="text-[#D00338E5]/90"
                     className="text-[#1F425D]"
                     width="25"
                     height="26"
@@ -103,7 +77,7 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-3 md:block md:pb-0 md:mt-0 ${
+            className={`flex-1 justify-self-center pb-4 mt-3 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
           >
@@ -111,16 +85,16 @@ export default function NavBar() {
               <li className=" font-poppins font-medium text-tertiary text-sm md:text-base">
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <NavLink to="#">Services</NavLink>
-              </li>
-              {/* <li className="hidden lg:block"> */}
+              {/* <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
+                <NavLink to="service">Services</NavLink>
+              </li> */}
 
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
                 <NavLink to="about">About Us</NavLink>
               </li>
+              
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <NavLink to="contact">Contact us</NavLink>
+                <NavLink to="contact">Contact Us</NavLink>
               </li>
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
                 <NavLink to="faq">FAQ</NavLink>
